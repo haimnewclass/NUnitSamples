@@ -53,8 +53,7 @@ namespace MainProg.Test
             rand1 = rand;
             // when referance type use Same
             // when value type use Equal
-            Assert.AreSame(rand, rand1,"Random");
-       
+            Assert.AreSame(rand, rand1,"Random");       
         }
 
         [Test ]
@@ -73,7 +72,7 @@ namespace MainProg.Test
         [Order(1)]        
         
         public void TestMinus2()
-        {+
+        {
 
             int ret = items.Minus(5, 5);
 
